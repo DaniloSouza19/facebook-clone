@@ -18,7 +18,7 @@
 Criar uma aplicação do zero utilizando **Webpack, Babel, Webpack Dev Server e ReactJS**, desenvolver uma **interface** semelhante com a do **Facebook** utilizando React. 
 
 <h1 align="center">
-<img alt="Tela" src=""/>
+<img alt="Tela" src="https://github.com/DaniloSouza19/facebook-clone/blob/master/src/assets/final_layout.png"/>
 </h1>
 
 ### Instruções para uso ###
