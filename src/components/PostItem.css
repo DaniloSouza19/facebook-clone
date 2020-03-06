@@ -1,0 +1,84 @@
+div.post {
+  margin-bottom: 20px;
+  background: #fff;
+  padding: 20px 20px;
+}
+
+div.post:first-child {
+  margin-top: 20px;
+}
+
+div.post p.post-content {
+  font-size: 14px;
+  color: #3E3E3E;
+  margin-top: 15px;
+  border-bottom: 1px solid #E6ECF0;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+}
+
+div.post p.post-content::after {
+  content: '';
+  
+}
+
+div.post .post-reader {
+  display: flex;
+  align-items: center;
+}
+
+div.post .post-reader img.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+div.post .post-reader .details {
+  display: flex;
+  flex-direction: column;
+}
+
+div.post .post-reader .details strong {
+  font-size: 14px;
+  line-height: 16px;
+  color: #4A4A4A;
+}
+
+div.post .post-reader .details span {
+  color: #9A9A9A;
+  font-size: 11px;
+  line-height: 13px;
+}
+
+div.post .post-comments {
+
+}
+
+div.post .post-comments .divider {
+
+}
+
+div.post .post-comments .comment-content {
+  display: flex;
+}
+
+div.post .post-comments .comment-content p {
+  display: flex;
+  flex-direction: column;
+  width: 640px;
+  background: #EEEEEE;
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+
+div.post .post-comments .comment-content {
+  margin-bottom: 10px;
+}
+
+div.post .post-comments .comment-content img.avatar-comment {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
