@@ -13,13 +13,8 @@ div.post p.post-content {
   color: #3E3E3E;
   margin-top: 15px;
   border-bottom: 1px solid #E6ECF0;
-  padding: 10px 15px;
   margin-bottom: 20px;
-}
-
-div.post p.post-content::after {
-  content: '';
-  
+  padding-bottom: 20px;
 }
 
 div.post .post-reader {
@@ -51,29 +46,17 @@ div.post .post-reader .details span {
   line-height: 13px;
 }
 
-div.post .post-comments {
-
-}
-
-div.post .post-comments .divider {
-
-}
-
 div.post .post-comments .comment-content {
   display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
 }
 
 div.post .post-comments .comment-content p {
-  display: flex;
-  flex-direction: column;
   width: 640px;
   background: #EEEEEE;
   border-radius: 20px;
   padding: 10px 15px;
-}
-
-div.post .post-comments .comment-content {
-  margin-bottom: 10px;
 }
 
 div.post .post-comments .comment-content img.avatar-comment {
@@ -81,4 +64,14 @@ div.post .post-comments .comment-content img.avatar-comment {
   height: 32px;
   border-radius: 50%;
   margin-right: 10px;
+}
+
+div.post .post-comments .comment-content p strong{
+  margin-right: 3px;
+}
+
+div.post .post-comments .comment-content p {
+
+  font-size: 13px;
+  color: #3E3E3E;
 }

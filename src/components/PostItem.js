@@ -22,7 +22,7 @@ function PostComments({ comments }){
         <div key={comment.id} className="comment-content">
           <img className="avatar-comment" src={comment.author.avatar} alt="avatar"/>
           <p>
-            <strong>{comment.author.name}</strong>
+            <strong>{comment.author.name} </strong> 
             {comment.content}
           </p>
         </div>
